@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<body>
+    <div id="barra">
+        
+        <i class="material-icons icono" >email</i> 
+        <p class="alinear_horizontal">DIANA@MAIL.COM</p>
+
+        <i class="material-icons icono">call</i>
+        <p class="alinear_horizontal">+57 6756 425</p>
+
+        <i class="material-icons icono">room</i>
+        <p class="alinear_horizontal">CLE 80# 4BN-20, CALI</p>
+    </div>
+
+    <div id="cv">
+
+        <div>
+            <img id="img_empleado" src="./woman_employee.jpg" class="alinear_horizontal">
+
+            <div id="titulo" class="alinear_horizontal">
+                <center>
+                    <h1 id="nombre" class="alinear_horizontal">Diana</h1>
+                    <h1 id="apellido" class="alinear_horizontal">Torres</h1>
+                    <hr>
+                    <h3 id="titulo_puesto">Data Scientist</h3>
+                </center>
+            </div>
+        </div>
+
+
+        <div id="info_izq" class="alinear_horizontal">
+            <div id="experiencia">
+                <div>
+                    <i class="material-icons alinear_horizontal subtitulos">work</i>
+                    <h2 class="subtitulos alinear_horizontal">EXPERIENCIA LABORAL</h2>
+                </div>
+
+                <hr>
+                <br>
+
+
+                <div>
+                    <div class="alinear_horizontal">
+
+                        <p class="empresa"><span class="blue">PSL</span><br /> 2018-2020</p>
+                        <br>
+
+                        <p class="empresa"><span class="blue">Tecnoquimicas</span><br />2017-2018</p>
+                        <br>
+
+                        <p class="empresa"><span class="blue">Moove it</span><br />2015-2017</p>
+                        <br>
+
+                    </div>
+                    <vr class="alinear_horizontal">
+                        <div id="info_puestos" class="alinear_horizontal">
+                            <p class="justify"> <b>Desarrolladora Web fullstack</b><br />
+                                Estuve a cargo de los proyectos más importantes en América Latina que permitieron
+                                diversificar todos los productos de la empresa, obteniendo así un exíto mundial.
+                            </p>
+                            <br>
+                            <p class="justify"><b>Desarrolladora de Web front-end</b><br />
+                                Desarrollé el front-end de diversas soluciones con diferentes equipos de otras ciudades.
+                            </p>
+                            <br>
+                            <p class="justify"><b>Analista de datos</b><br />
+                                Fui analista de datos de compras internacionales y nacionales de la empresa.
+                                Desarrollé con el equipo diferentes aplicaciones que permitían visualizar muy bien la
+                                tendencia de los datos, entre muchas otras cosas.
+                            </p>
+                            <br>
+                        </div>
+
+
+                </div>
+
+
+            </div>
+            <br>
+            <br>
+
+            <div id="info_adicional">
+                <div>
+                    <i class="material-icons alinear_horizontal subtitulos">perm_identity</i>
+                    <h2 class="alinear_horizontal subtitulos">INFORMACIÓN ADICIONAL</h2>
+                </div>
+                <hr>
+                <br>
+                <p>
+                    Sistemas : Excel básico, Photoshop, Anaconda, VStudio, RStudio.
+                    Idiomas : Inglés, Francés y Español.
+                    Hobbies : Tenis de Campo, leer libros policiacos.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="info_der" class="alinear_horizontal">
+
+
+            <div id="educacion">
+
+                <div>
+                    <i class="material-icons alinear_horizontal subtitulos">school</i>
+                    <h2 class="subtitulos alinear_horizontal">EDUCACIÓN</h2>
+
+                </div>
+
+                <hr>
+                <br>
+
+                <div>
+                    <p class="blue">Universidad ICESI</p>
+                    <em>Ingeniera de Sistemas</em>
+                    <p>Misión Académica: Misión TIC a México, Agosto 2018 <br />
+                        Reconocimientos Académicos: Cuadro de honor todos los semestres <br />
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <p class="blue">Liceo Francés Paul Valéry</p>
+                    <em>Bachiller</em>
+                    <p>Baccalauréat Général en Scientifique</p>
+                </div>
+                <br>
+
+            </div>
+
+
+
+            <div id="habilidades">
+                <div>
+                    <i class="material-icons alinear_horizontal subtitulos">insert_chart</i>
+                    <h2 class="subtitulos alinear_horizontal">HABILIDADES</h2>
+                </div>
+                <hr>
+                <br>
+
+                <div>
+                
+                    <p><b>Habilidades</b></p>
+
+                    <div class="tabla_habil">
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><div id="mo_gestion_proyectos" onclick="func_mo_gestion_proyectos()">Gestión de proyectos</div></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons ">fiber_manual_record</i></div>
+
+                        </div>
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p id="mo_gestion_tiempo" onclick="func_mo_gestion_tiempo()">Gestión del tiempo</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons ">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons ">fiber_manual_record</i></div>
+                            
+                        </div>
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p id="mo_adaptabilidad" onclick="func_mo_adaptabilidad()">Adaptabilidad</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                        </div>
+                        
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p id="mo_relaciones_inter" onclick="func_mo_relaciones_inter()">Relaciones interpersonales</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons ">fiber_manual_record</i></div>
+                        </div> 
+                    </div>
+
+
+
+
+                </div>
+                <br>
+                <br>
+
+                <div id="personalidad">
+                    <p><b>Personalidad</b></p>
+                    <br>
+
+                    <div class="tabla_habil">
+
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p>Creativa</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons ">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons">fiber_manual_record</i></div>
+                        </div>
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p>Organizada</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                        </div>
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p>Responsable</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                        </div>
+                        <div class="tabla_fila">
+                            <div class="tabla_celda"><p>Capacidad para aprender</p></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons subtitulos">fiber_manual_record</i></div>
+                            <div class="tabla_celda"><i class="material-icons">fiber_manual_record</i></div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div id="barra_final"></div>
+
+
+    </div>
+
+
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <p id="info_modal">Información de la habilidad seleccionada</p>
+        </div>
+    </div>
+
+    <script>
+        function func_mo_gestion_proyectos() {
+
+            var modal = document.getElementById("modal");
+            document.getElementById("info_modal").innerHTML = "Capacidad de planear, administrar, evaluar diferentes tipos de proyectos.";
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        }
+
+
+
+        function func_mo_gestion_tiempo() {
+
+            var modal = document.getElementById("modal");
+            document.getElementById("info_modal").innerHTML = "Cada uno de nosotros tiene tan poco tiempo y tantas tareas a realizar. Poder administrar el tiempo disponible y asignar las prioridades adecuadas se ha convertido en una competencia interpersonal clave. ";
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        }
+
+
+        function func_mo_adaptabilidad() {
+
+            var modal = document.getElementById("modal");
+            document.getElementById("info_modal").innerHTML = "Es la capacidad para resolver  problemas y reaccionar de manera flexible a las exigencias cambiantes e inconstantes del ambiente.";
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        }
+
+
+        function func_mo_relaciones_inter() {
+
+            var modal = document.getElementById("modal");
+            document.getElementById("info_modal").innerHTML = "No sólo estamos hablando de la relación con los compañeros: saber cómo interactuar con los clientes y proveedores es una cualidad deseable en todo empleado, no sólo los que participan en ventas, mercadeo y servicio al cliente. Después de todo, los empleados son los mejores embajadores de la marca.";
+            modal.style.display = "block";
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        }
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
